@@ -1,0 +1,7 @@
+{
+    "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+    "livePreview.customExternalBrowser": "Edge",
+    "livePreview.openPreviewTarget": "External Browser",
+    "git.enabled": true,
+    "livePreview.hostIP": "192.168.1.6"
+}

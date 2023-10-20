@@ -1,0 +1,32 @@
+html{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: blueviolet;
+    font-size: large;
+}
+
+.box{
+    width: 640px;
+    height: 400px;
+    margin: 50px,auto;
+    color: greenyellow;
+    border: 40px,dotted;
+    background-color:red;
+    background-image: url(37.studio-ghibli-desktop-overlooking-road-73mlnihqjycdiatm.jpg);
+    background-size: contain;
+    padding: 40px;
+    background-origin: border-box;
+    background-clip: border-box;
+}
+
+.box h1{
+    margin: 29px 40px;
+    float: inline-end;
+    text-shadow: 3px 3px 3px;
+}
+
+.box p{
+    border: 40px,dotted;
+
+}
+
+

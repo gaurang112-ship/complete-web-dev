@@ -1,0 +1,20 @@
+html{
+    background-color: grey;
+}
+
+img{
+    border-radius: 45%;
+}
+
+.heading{
+    text-align: right;
+}
+
+
+footer{
+    text-align: right;
+}
+
+a:hover{
+    color: yellow;
+}

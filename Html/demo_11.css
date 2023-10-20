@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+    border: 40px solid black;
+    padding: 60px; 
+    margin: 20px auto;
+}
+
+.parent_box{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(64, 23, 23);
+    overflow: hidden;
+     /* padding: 1px; */
+     border-radius: 9px;
+     filter: blur(3px);
+ }
+
+.box1{
+    width: 425px;
+    height: 150px;
+    background-color: rgb(109, 109, 62);
+    margin: 20px auto;
+    border-radius: 10px;
+    transform: rotate(-0.7deg);
+}
+
+.box2{
+    width: 455px;
+    height: 200px;
+    background-color: rgb(111, 104, 95);
+    margin: 20px auto;
+    border-radius: 9px 10px;
+    transform: rotate(0.3deg);
+}
+
+.box3{
+    width: 91%;
+    height: 28%;
+    background-color: aqua;
+    margin: 20px auto;
+    border-radius: 9px;
+    transform: rotate(-0.5deg);
+    border-radius: ;
+}
+
+.box1, .box2{
+    filter: blur(2px);
+}
