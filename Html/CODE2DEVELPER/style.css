@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+     box-sizing: border-box;
 }
 
 html, body{
     width: 100%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #main{
@@ -20,9 +21,73 @@ html, body{
     width: 85%;
     height: 100vh; 
     max-width: 1600px;
-    background-color: rgba(164, 211, 217, 0.632);
+    background-color: #a4d3d9a1;
 }
 
-#nright img{
-    margin: 20px;
+/* #nav{
+   border: 1px solid black;
+} */
+
+#nav img{
+    margin: 20px 20px;
+}
+
+#nav > ul{
+    /* background-color: aqua; */
+    margin: 1.7vw;
+    padding: 0;
+}
+#nav ul{
+    list-style: none;
+    position: relative;
+    float: right;
+
+}
+#nav ul a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 15px;
+    font-weight: bold;
+    display: block;
+}
+
+#nav ul li{
+    float: left;
+    position: relative;
+    margin: 7px 7px;
+    padding: 0;
+}
+
+#nav ul ul{
+    position: absolute;
+    /* background-color: aquamarine; */
+    top: 100%;
+    left: 0;
+    right: 5px;
+    width: 230px;
+    display: none;
+    border: 1px solid transparent;
+    background: #a4d3d9fa;
+    border-radius: 4px;
+
+}
+
+/* #nav ul li:hover{ 
+    background: aqua;
+    border: 1px solid aqua;
+} */
+
+#nav ul li:hover >ul{
+    display: flex;
+    flex-direction: column;
+}
+
+#nav ul ul:hover{ 
+    border-top: 1px solid orangered;
+}
+
+#nav a:hover{
+    color: orangered;
 }
