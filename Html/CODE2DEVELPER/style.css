@@ -53,7 +53,7 @@ html, body{
     list-style: none;
     position: relative;
     float: right;
-    display: block;
+    display: flex;
 
 }
 #nav ul a{
@@ -83,7 +83,7 @@ html, body{
     width: 230px;
     display: none;
     border: 0.8px solid transparent;
-    background: #a4d3d9fa;
+    background: #cfe2e4a0;
     border-radius: 4px;
 
 }
